@@ -55,10 +55,10 @@ public class LamdaEx01 {
 		lbi1.printVar("김상건", 5);
 		
 		LambdaInter1 lbi2 = ( name,  i)->{System.out.println(name + " : " + i);};
-		lbi1.printVar("이나연", 15);
+		lbi2.printVar("이나연", 15);
 		
 		LambdaInter1 lbi3 = ( name,  i)->System.out.println(name + " : " + i);
-		lbi1.printVar("신범건", 25);
+		lbi3.printVar("신범건", 25);
 		
 		LambdaInter2 lbi4 = (int x) -> x * x;
 		LambdaInter2 lbi5 = x -> x * x;
